@@ -86,6 +86,7 @@ https://github.com/danielatorresalmeida/sistema-restaurante
 Protótipo no Figma:
 
 [https://www.figma.com/design/aIV7smzh69HzackoUm7ARW/Restaurante?node-id=1-3&p=f&t=TpWEcDJwnVnQYTxI-0]
+
 Observações
 
 Este projeto encontra-se em desenvolvimento académico. Algumas funcionalidades poderão ser ajustadas ao longo do trabalho, de acordo com a evolução do protótipo, dos testes e das decisões do grupo.
