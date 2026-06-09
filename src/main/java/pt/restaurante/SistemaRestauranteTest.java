@@ -23,7 +23,15 @@ public class SistemaRestauranteTest {
         boolean resultado= autenticar.login("admin@restaurante.pt", "12345");
             assertFalse(resultado);
 
+    }
+        // Teste utilizador nulo
+        @Test
+        public void deveRecusarLoginComUtilizadorNulo() {
+            SistemaRestaurante autenticar = new SistemaRestaurante();
 
+            boolean resultado = autenticar.login(null, "123456");
+
+            assertFalse(resultado);
 
     }
 }
