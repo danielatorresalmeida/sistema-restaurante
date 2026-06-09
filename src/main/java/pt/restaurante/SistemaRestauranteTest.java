@@ -27,6 +27,16 @@ public class SistemaRestauranteTest {
         assertFalse(resultado);
     }
 
+    // Teste Utilizador Nulo
+    @Test
+    public void deveRecusarLoginComUtilizadorNulo() {
+        SistemaRestaurante autenticar = new SistemaRestaurante();
+
+        boolean resultado = autenticar.login(null, "123456");
+
+        assertFalse(resultado);
+    }
+
     // Teste Password Nula
     @Test
     public void deveRecusarPasswordNula() {
